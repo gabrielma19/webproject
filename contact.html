@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Photos</title>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="vendor/js/bootstrap.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="transition.css">
+<body>
+</head>
+
+<body>
+    <header class="container">
+        <div class="row">
+            <h1 class="col-sm-8"><a href="index.html" style="text-decoration: none; color: #000000" ;>Photos</a></h1>
+            <nav class="col-sm-4">
+                <p><a href="#" style="text-decoration: none; color: #000000;">Informations</a></p>
+                <p><a href="#" style="text-decoration: none; color: #000000;">catalogue</a></p>
+                <p><a href="contact.html" style="text-decoration: none; color: #000000;">contact</a></p>
+            </nav>
+        </div>
+    </header>
+    <section class="carousel">
+        <div class="" style="max-width:1200px">
+                <img class="mySlides" src="images/cidade.jpg" style="width:100%">
+                <img class="mySlides" src="images/chaplin.jpg" style="width:100%">
+                <img class="mySlides" src="images/musicos.jpg" style="width:100%">
+            <div class="w3-row-padding w3-section">
+                <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="images/cidade.jpg" style="width:100%" onclick="currentDiv(1)">
+                </div>
+                <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="images/chaplin.jpg" style="width:100%" onclick="currentDiv(2)">
+                </div>
+                <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="images/musicos.jpg" style="width:100%" onclick="currentDiv(3)">
+                </div>
+            </div>
+         </div>
+    </section>
+    <main class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <section class="form">
+                        <form class="form-horizontal">
+                                <legend style="margin-left: 40px;">Form</legend>
+                                <div class="form-group">
+                                    <label for="textName" class="col-lg-2 control-label">Name</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="textName" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone" class="col-lg-2 control-label">Telefone</label>
+                                    <div class="col-sm-8">
+                                        <input type="phone" class="form-control" id="phone" placeholder="Telephone" maxlength="14">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                                    <div class="col-sm-8">
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="textArea" class="col-lg-2 control-label">Mensage</label>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" rows="4" id="textArea"></textarea>
+                                        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-lg-10 col-lg-offset-2">
+                                        <button type="reset" class="btn btn-default">Cancel</button>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="contact.js"></script>
+    <script src="transition.js"></script>
+</body>
+
+</html>

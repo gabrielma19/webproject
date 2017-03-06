@@ -22,10 +22,11 @@ header p{
   padding: 0 20px;
   margin: 0;
 }
+
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url(images/jumbotron.jpg);
+  background-image: url(images/cidade.jpg);
   background-size: cover;
   color: #ffffff;
   height: 600px;
@@ -43,11 +44,17 @@ header p{
 }
 section .row img{
   margin: 0 0 30px;
-  width: 100%;
+    width: 100%;
 }
 section .row img:hover{
-  -webkit-transform: scale(1.2);
+  -webkit-transform: scale(1.1);
   -webkit-transition: all 0.7s ease-in;
+  position: relative;
+  z-index: 1;
+}
+
+section p{
+  margin-bottom: 25px;
 }
 
 col-md-6{
@@ -64,6 +71,8 @@ col-md-6{
   color: #ffffff;
   margin: 0 0 30px;
   transition-duration: 1s;
+  margin-top: 50px;
+  text-decoration: none;
 }
 footer{
   font-size: 12px;
@@ -81,6 +90,6 @@ footer li img {
   height: 32px;
 }
 ul#photos li :hover{
-  -webkit-transform: scale(1.5);
+  -webkit-transform: scale(1.2);
   -webkit-transition: all 0.5s ease-in;
 }
